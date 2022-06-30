@@ -1,6 +1,6 @@
 {
-  "name": "@jsquash/oxipng",
-  "version": "1.0.0",
+  "name": "jsquash-oxipng",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "Wasm png optimiser supporting the browser. Repackaged from Squoosh App.",
   "repository": "jamsinclair/jSquash/packages/oxipng",
@@ -22,9 +22,6 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc && cp -r codec package.json README.md .npmignore dist"
-  },
-  "dependencies": {
-    "wasm-feature-detect": "^1.2.11"
   },
   "devDependencies": {
     "typescript": "^4.4.4"
